@@ -1,0 +1,60 @@
+401 - HTTP code for unauthorized access
+
++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:flask-apis-video-0.5$ cd orders/
+(rest27) yann.yu@mllxv-yu:orders$ ls
+api.py  utils.py
+(rest27) yann.yu@mllxv-yu:orders$ python
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from api import db, User
+>>> db.create_all()
+>>> u = User(username='ian')
+>>> u.set_password('cat')
+>>> u.password_hash
+'pbkdf2:sha1:1000$qkgRltLf$34003515dce9602499c13a7395a306cb991e3e20'
+>>> db.session.add(u)
+>>> db.session.commit()
+>>> 
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+python api.py
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GET http://localhost:5000/customers/
+HTTP/1.0 401 UNAUTHORIZED
+Content-Length: 84
+Content-Type: application/json
+Date: Fri, 07 Jul 2017 14:44:41 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+WWW-Authenticate: Basic realm="Authentication Required"
+
+{
+    "error": "unauthorized", 
+    "message": "please authenticate", 
+    "status": 401
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http --auth ian:cat GET http://localhost:5000/customers/
+HTTP/1.0 200 OK
+Content-Length: 21
+Content-Type: application/json
+Date: Fri, 07 Jul 2017 14:46:16 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "customers": []
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
