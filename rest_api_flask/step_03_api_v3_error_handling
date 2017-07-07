@@ -1,0 +1,62 @@
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GET http://localhost:5000/customer/
+HTTP/1.0 404 NOT FOUND
+Content-Length: 82
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 19:00:26 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "error": "not found", 
+    "message": "invalid resource URI", 
+    "status": 404
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GEET http://localhost:5000/customer/
+HTTP/1.0 404 NOT FOUND
+Content-Length: 82
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 19:05:21 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "error": "not found", 
+    "message": "invalid resource URI", 
+    "status": 404
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GEET http://localhost:5000/customers/
+HTTP/1.0 405 METHOD NOT ALLOWED
+Content-Length: 100
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 19:05:28 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "error": "method not supported", 
+    "message": "the method is not supported", 
+    "status": 405
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GET http://localhost:5000/customers/
+HTTP/1.0 200 OK
+Content-Length: 21
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 19:08:14 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "customers": []
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http POST http://localhost:5000/customers/ namm='Spam'
+HTTP/1.0 400 BAD REQUEST
+Content-Length: 94
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 19:08:34 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "error": "bad request", 
+    "message": "Invalid customer: missing name", 
+    "status": 400
+}
