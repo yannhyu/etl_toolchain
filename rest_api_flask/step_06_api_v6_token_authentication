@@ -1,0 +1,40 @@
+Good use of blueprint here:
+Once username and password are verified via 'get-auth-token',
+a token is created through-out the 'api' blueprint.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http --auth ian:cat GET http://localhost:5000/get-auth-token
+HTTP/1.0 200 OK
+Content-Length: 139
+Content-Type: application/json
+Date: Fri, 07 Jul 2017 18:18:34 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsImV4cCI6MTQ5OTQ1NTExNCwiaWF0IjoxNDk5NDUxNTE0fQ.eyJpZCI6MX0.zjcFnLZ0wDhYa8SfdP7rTtrjlE3UPJyrG2NpuJdLgAY"
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+http --auth eyJhbGciOiJIUzI1NiIsImV4cCI6MTQ5OTQ1NTExNCwiaWF0IjoxNDk5NDUxNTE0fQ.eyJpZCI6MX0.zjcFnLZ0wDhYa8SfdP7rTtrjlE3UPJyrG2NpuJdLgAY: GET http://localhost:5000/customers/
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http --auth eyJhbGciOiJIUzI1NiIsImV4cCI6MTQ5OTQ1NTExNCwiaWF0IjoxNDk5NDUxNTE0fQ.eyJpZCI6MX0.zjcFnLZ0wDhYa8SfdP7rTtrjlE3UPJyrG2NpuJdLgAY: GET http://localhost:5000/customers/
+HTTP/1.0 200 OK
+Content-Length: 21
+Content-Type: application/json
+Date: Fri, 07 Jul 2017 18:21:53 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "customers": []
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
