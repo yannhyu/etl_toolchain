@@ -1,0 +1,25 @@
+yann.yu@mllxv-yu:~$ python3.6 --version
+Python 3.6.1
+yann.yu@mllxv-yu:~$ which python3.6
+/usr/local/bin/python3.6
+yann.yu@mllxv-yu:~$ 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+mkvirtualenv -p /usr/local/bin/python3.6 rest361
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+cd /home/yann.yu/workspace/python3code/rest_api_flask
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+https://github.com/miguelgrinberg/oreilly-flask-apis-video
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+problems with sqlite2, 3 & Python3.6.1
+
+rollback to Python3.4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+mkvirtualenv rest27

@@ -1,0 +1,65 @@
+http GET http://localhost:5000/customers/
+
++++++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GET http://localhost:5000/customers/
+HTTP/1.0 200 OK
+Content-Length: 21
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 15:06:37 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "customers": []
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+http POST http://localhost:5000/customers/ name=Ian
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http POST http://localhost:5000/customers/ name=Ian
+HTTP/1.0 201 CREATED
+Content-Length: 2
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 15:14:05 GMT
+Location: http://localhost:5000/customers/1
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{}
+
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GET http://localhost:5000/customers/
+HTTP/1.0 200 OK
+Content-Length: 64
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 15:14:45 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "customers": [
+        "http://localhost:5000/customers/1"
+    ]
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ 
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ http GET http://localhost:5000/customers/1
+HTTP/1.0 200 OK
+Content-Length: 71
+Content-Type: application/json
+Date: Thu, 06 Jul 2017 15:17:12 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "name": "Ian", 
+    "self_url": "http://localhost:5000/customers/1"
+}
+
+(rest27) yann.yu@mllxv-yu:rest_api_flask$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
