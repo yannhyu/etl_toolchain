@@ -1,0 +1,2167 @@
+<ClaimInvestigationAddRs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="F:\MRI\XML\REBECC~1\UFEPP1~1\ACORDC~2.XSD">
+	<com.iso_CustLoginId>XXXXXX</com.iso_CustLoginId>
+	<com.iso_CustLoginPwd>XXXXXXXX</com.iso_CustLoginPwd>
+	<RqUID>B82B52C5FDDF641228D9D37F53FFDG7820</RqUID>
+	<TransactionResponseDt>2015-03-27T11:25:51</TransactionResponseDt>
+	<CurCd>US</CurCd>
+	<CodeList id="AdditionalMatchCdList">
+		<CodeListName>AdditionalMatchCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="ADSResponseCdList">
+		<CodeListName>ADSResponseCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="AirbagStatusCdList">
+		<CodeListName>AirbagStatusCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="AntiTheftDeviceCdList">
+		<CodeListName>AntiTheftDeviceCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="AppraiserActivityCdList">
+		<CodeListName>AppraiserActivityCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="BenefitTypeCdList">
+		<CodeListName>BenefitTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="BodyPartCdList">
+		<CodeListName>BodyPartCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="CatastropheCdList">
+		<CodeListName>CatastropheCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="ClaimsPartyRoleCdList">
+		<CodeListName>ClaimsPartyRoleCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="ClaimStatusCdList">
+		<CodeListName>ClaimStatusCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="CoverageCdList">
+		<CodeListName>CoverageCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="CPT_CodeList">
+		<CodeListName>CPT_Code</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="DriverRelationshipToOwnerCdList">
+		<CodeListName>DriverRelationshipToOwnerCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="EDRIndList">
+		<CodeListName>EDRInd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="EmploymentStatusCdList">
+		<CodeListName>EmploymentStatusCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="EventCdList">
+		<CodeListName>EventCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="HullMaterialTypeCdList">
+		<CodeListName>HullMaterialTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="ICDDiagnosticCdList">
+		<CodeListName>ICDDiagnosticCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="KeyReasonCdList">
+		<CodeListName>KeyReasonCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="LicensePlateTypeCdList">
+		<CodeListName>LicensePlateTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="LossTypeCdList">
+		<CodeListName>LossTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="MatchReasonCdList">
+		<CodeListName>MatchReasonCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="MatchReportTypeCdList">
+		<CodeListName>MatchReportTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="MsgErrorCdList">
+		<CodeListName>MsgErrorCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="MsgStatusCdList">
+		<CodeListName>MsgStatusCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="OccupancyTypeCdList">
+		<CodeListName>OccupancyTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="PaymentTypeCdList">
+		<CodeListName>PaymentTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="PointOfImpactCdList">
+		<CodeListName>PointOfImpactCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="PolicyTypeCdList">
+		<CodeListName>PolicyTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="PropulsionTypeCdList">
+		<CodeListName>PropulsionTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="RealEstateTypeCdList">
+		<CodeListName>RealEstateTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="RecoveryClassificationCdList">
+		<CodeListName>RecoveryClassificationCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="RecoveryConditionCdList">
+		<CodeListName>RecoveryConditionCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="RecoveryStatusCdList">
+		<CodeListName>RecoveryStatusCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="SearchableElementCdList">
+		<CodeListName>SearchableElementCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="SearchBasisCdList">
+		<CodeListName>SearchBasisCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="SSNValidationCdList">
+		<CodeListName>SSNValidationCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="SubjectInsuranceCdList">
+		<CodeListName>SubjectInsuranceCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="SumReasonCdList">
+		<CodeListName>SumReasonCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="TaxIdTypeCdList">
+		<CodeListName>TaxIdTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="TheftLocationCdList">
+		<CodeListName>TheftLocationCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="TINValidationList">
+		<CodeListName>TINValidation</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="TortThresholdTypeCdList">
+		<CodeListName>TortThresholdTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="VehColorCdList">
+		<CodeListName>VehColorCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="VehDispositionCdList">
+		<CodeListName>VehDispositionCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="VehStyleCdList">
+		<CodeListName>VehStyleCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="VehTypeCdList">
+		<CodeListName>VehTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<CodeList id="WaterUnitTypeCdList">
+		<CodeListName>WaterUnitTypeCd</CodeListName>
+		<CodeListOwnerCd>ISOUS</CodeListOwnerCd>
+	</CodeList>
+	<MsgStatus>
+		<MsgStatusCd>Success</MsgStatusCd>
+	</MsgStatus>
+	<Policy>
+		<PolicyNumber>PA062013</PolicyNumber>
+		<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+		<MiscParty id="MiscParty-01">
+			<ItemIdInfo>
+				<AgencyId>A00000001</AgencyId>
+			</ItemIdInfo>
+			<MiscPartyInfo>
+				<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+			</MiscPartyInfo>
+		</MiscParty>
+	</Policy>
+	<ClaimsOccurrence id="ClaimsOccurence_1">
+		<ItemIdInfo>
+			<AgencyId>5E000478006</AgencyId>
+			<InsurerId>PA052013A002</InsurerId>
+		</ItemIdInfo>
+		<ClaimsReported ReportedToRef="MiscParty-01">
+			<ReportedDt>2015-03-05</ReportedDt>
+		</ClaimsReported>
+		<LossDt>2015-03-02</LossDt>
+		<LossTime>12:35</LossTime>
+		<IncidentDesc>HIT TREE</IncidentDesc>
+		<Addr>
+			<Addr1>SUGAR MAPLE RD</Addr1>
+			<City>DAYTON</City>
+			<StateProvCd>NJ</StateProvCd>
+		</Addr>
+		<com.iso_ReceiveDt>2015-03-27</com.iso_ReceiveDt>
+		<com.iso_RRECd>123654789</com.iso_RRECd>
+		<TaxIdentity>
+			<TaxIdTypeCd codelistref="TaxIdTypeCdList">TIN</TaxIdTypeCd>
+			<TaxId>321456987</TaxId>
+		</TaxIdentity>
+		<com.iso_SiteId>123654789</com.iso_SiteId>
+	</ClaimsOccurrence>
+	<ClaimsParty id="IP_1">
+		<GeneralPartyInfo>
+			<NameInfo>
+				<PersonName>
+					<Surname>CARTER</Surname>
+					<GivenName>NICKKI</GivenName>
+				</PersonName>
+			</NameInfo>
+			<Addr>
+				<Addr1>7364 MIDDLETON LANE</Addr1>
+				<City>EDISON</City>
+				<StateProvCd>NJ</StateProvCd>
+				<PostalCode>08857</PostalCode>
+			</Addr>
+			<Communications>
+				<PhoneInfo>
+					<PhoneTypeCd>Phone</PhoneTypeCd>
+					<CommunicationUseCd>Home</CommunicationUseCd>
+					<PhoneNumber id="IP_1_HomePhone">+1-555-8851479</PhoneNumber>
+				</PhoneInfo>
+			</Communications>
+		</GeneralPartyInfo>
+		<ClaimsPartyInfo>
+			<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+		</ClaimsPartyInfo>
+		<com.iso_AppendDS idref="IP_1AppendDS_1">
+			<ADSResponseCd>NM</ADSResponseCd>
+		</com.iso_AppendDS>
+	</ClaimsParty>
+	<ClaimsParty id="IP_1AutoLossInfo_1SalvageBuyerCP_1">
+		<GeneralPartyInfo>
+			<NameInfo>
+				<CommlName>
+					<CommercialName>BIG JOE'S SALVAGE YARD</CommercialName>
+				</CommlName>
+			</NameInfo>
+			<Addr>
+				<Addr1>848 WILLOW LANE</Addr1>
+				<City>DUNELLEN</City>
+				<StateProvCd>NJ</StateProvCd>
+				<PostalCode>08860</PostalCode>
+			</Addr>
+		</GeneralPartyInfo>
+		<ClaimsPartyInfo>
+			<ClaimsPartyRoleCd>SalvageBuyer</ClaimsPartyRoleCd>
+		</ClaimsPartyInfo>
+	</ClaimsParty>
+	<AdjusterParty>
+		<GeneralPartyInfo>
+			<NameInfo>
+				<CommlName>
+					<CommercialName>CMS TESTING CO 12</CommercialName>
+				</CommlName>
+			</NameInfo>
+			<NameInfo>
+				<PersonName>
+					<Surname>WOODS</Surname>
+					<GivenName>FORREST</GivenName>
+				</PersonName>
+			</NameInfo>
+			<Communications>
+				<PhoneInfo>
+					<PhoneTypeCd>Phone</PhoneTypeCd>
+					<CommunicationUseCd>Business</CommunicationUseCd>
+					<PhoneNumber>+1-555-4692000</PhoneNumber>
+				</PhoneInfo>
+			</Communications>
+		</GeneralPartyInfo>
+		<AdjusterPartyInfo AssignmentRef="IP_1AutoLossInfo_1">
+			<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+			<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+		</AdjusterPartyInfo>
+	</AdjusterParty>
+	<AutoLossInfo id="IP_1AutoLossInfo_1" ClaimsPartyRefs="IP_1">
+		<VehInfo>
+			<Manufacturer>HYUNDAI</Manufacturer>
+			<Model>SONATA</Model>
+			<ModelYear>2010</ModelYear>
+			<VehBodyTypeCd codelistref="VehStyleCdList">4D</VehBodyTypeCd>
+			<VehTypeCd codelistref="VehTypeCdList">PC</VehTypeCd>
+			<Registration>
+				<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+				<RegistrationNumber>XX410X</RegistrationNumber>
+				<StateProvCd>NJ</StateProvCd>
+			</Registration>
+			<VehIdentificationNumber>1G4GD2219X4705652</VehIdentificationNumber>
+		</VehInfo>
+	</AutoLossInfo>
+	<ClaimsPayment idref="IP_1AutoLossInfo_1" ClaimsPartyRef="IP_1">
+		<PaymentTypeCd>LossResv</PaymentTypeCd>
+		<ClaimsPaymentCovInfo>
+			<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+			<ClaimStatusCd codelistref="ClaimStatusCdList">SAL</ClaimStatusCd>
+		</ClaimsPaymentCovInfo>
+	</ClaimsPayment>
+	<InvestigationInfo ItemRef="IP_1AutoLossInfo_1">
+		<ValidVINInd>0</ValidVINInd>
+		<VehDispositionCd>T</VehDispositionCd>
+		<SalvageInfo id="IP_1AutoLossInfo_1SalvageBuyer_1" BuyerRef="IP_1AutoLossInfo_1SalvageBuyerCP_1">
+			<SalvageDt>2015-03-03</SalvageDt>
+			<ItemAppraisedValueAmt>
+				<Amt>6500</Amt>
+			</ItemAppraisedValueAmt>
+			<ItemValueReceivedAmt>
+				<Amt>6500</Amt>
+			</ItemValueReceivedAmt>
+			<OwnerRetainingSalvageInd>N</OwnerRetainingSalvageInd>
+		</SalvageInfo>
+	</InvestigationInfo>
+	<MatchReportTypeCd codelistref="MatchReportTypeCdList">I</MatchReportTypeCd>
+	<com.iso_ClaimsScoringInfo>
+		<com.iso_ClaimDirectorScore>000</com.iso_ClaimDirectorScore>
+		<com.iso_EmailSentInd>N</com.iso_EmailSentInd>
+		<com.iso_NumberTimesScored>00</com.iso_NumberTimesScored>
+	</com.iso_ClaimsScoringInfo>
+	<MatchInfo>
+		<AdditionalMatchInfo idref="MD_1IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_2IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_3IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_4IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_5IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_6IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_7IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_8IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_9IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+		<AdditionalMatchInfo idref="MD_10IP_1_HomePhone">
+			<MatchTypeCd>Phone</MatchTypeCd>
+			<MatchData>+1-555-8851264</MatchData>
+		</AdditionalMatchInfo>
+	</MatchInfo>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>AAFFSSDD</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_1MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>XML TEST CORPORATION</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>14962 WEST MAIN ST</Addr1>
+						<Addr2>STE 100</Addr2>
+						<City>RANCHO CUCAMONGA</City>
+						<StateProvCd>CA</StateProvCd>
+						<PostalCode>91730</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_1ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>1J000478614</AgencyId>
+				<InsurerId>PA052013A001</InsurerId>
+			</ItemIdInfo>
+			<LossDt>2013-05-01</LossDt>
+			<LossTime>12:35</LossTime>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_1IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_1IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_1IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_1IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>XML TEST CORPORATION</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_1IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_1IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_1IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_1IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_1IP_1AutoLossInfo_1_LicPlate">XX410X</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_1IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_1IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_1IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_1IP_2AutoLossInfo_1_LicPlate">XX86X3</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_1IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>L</MatchReasonCd>
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>1J000478614</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>L</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_1IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_1IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>PA052015</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_2MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>CMS TESTING CO 12</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>545 WASHINGTON BLVD</Addr1>
+						<City>JERSEY CITY</City>
+						<StateProvCd>NJ</StateProvCd>
+						<PostalCode>07310</PostalCode>
+					</Addr>
+					<Communications>
+						<PhoneInfo>
+							<PhoneNumber>+1-201-4692005</PhoneNumber>
+						</PhoneInfo>
+					</Communications>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_2ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>1T000478467</AgencyId>
+				<InsurerId>PA052015A001</InsurerId>
+			</ItemIdInfo>
+			<ClaimsReported ReportedToRef="MD_2MiscParty_1">
+				<ReportedDt>2015-03-05</ReportedDt>
+			</ClaimsReported>
+			<LossDt>2015-03-01</LossDt>
+			<LossTime>12:35</LossTime>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_2IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_2IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_2IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_2IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>CMS TESTING CO 12</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_2IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_2IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_2IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_2IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_2IP_1AutoLossInfo_1_LicPlate">XX410X</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_2IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_2IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_2IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2015</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_2IP_2AutoLossInfo_1_LicPlate">XX86X3</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_2IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<ClaimsPayment idref="MD_2IP_1AutoLossInfo_1" ClaimsPartyRef="MD_2IP_1">
+			<PaymentTypeCd>LossResv</PaymentTypeCd>
+			<ClaimsPaymentCovInfo>
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>
+			</ClaimsPaymentCovInfo>
+		</ClaimsPayment>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>L</MatchReasonCd>
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>1T000478467</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>L</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_2IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_2IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>32620151</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_3MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>XML TEST CORPORATION</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>14962 WEST MAIN ST</Addr1>
+						<Addr2>STE 100</Addr2>
+						<City>RANCHO CUCAMONGA</City>
+						<StateProvCd>CA</StateProvCd>
+						<PostalCode>91730</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_3ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>2X000477948</AgencyId>
+				<InsurerId>PA052013A001</InsurerId>
+			</ItemIdInfo>
+			<LossDt>2013-05-01</LossDt>
+			<LossTime>12:35</LossTime>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_3IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_3IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_3IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_3IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>XML TEST CORPORATION</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_3IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_3IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_3IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_3IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_3IP_1AutoLossInfo_1_LicPlate">XX410X</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_3IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_3IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_3IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_3IP_2AutoLossInfo_1_LicPlate">XX86X3</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_3IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>L</MatchReasonCd>
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>2X000477948</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>L</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_3IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_3IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>AUT00053677</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_4MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>637 OSCAR WILDE DR</Addr1>
+						<City>LARAMIE</City>
+						<StateProvCd>WY</StateProvCd>
+						<PostalCode>82070</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_4ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>2Z000472197</AgencyId>
+				<InsurerId>20CR00160</InsurerId>
+			</ItemIdInfo>
+			<ClaimsReported ReportedToRef="MD_4MiscParty_1">
+				<ReportedDt>2014-05-07</ReportedDt>
+			</ClaimsReported>
+			<LossDt>2014-05-06</LossDt>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_4IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_4IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_4IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_4IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_4IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_4IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_4IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_4IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_4IP_1AutoLossInfo_1_LicPlate">569YWT</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_4IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_4IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_4IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_4IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<ClaimsPayment idref="MD_4IP_1AutoLossInfo_1" ClaimsPartyRef="MD_4IP_1">
+			<PaymentTypeCd>LossResv</PaymentTypeCd>
+			<ClaimsPaymentCovInfo>
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>
+			</ClaimsPaymentCovInfo>
+		</ClaimsPayment>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>2Z000472197</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_4IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_4IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>AUT000436673</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_5MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>673 OSCAR WILDE DR</Addr1>
+						<City>LARAMIE</City>
+						<StateProvCd>WY</StateProvCd>
+						<PostalCode>82070</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_5ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>4S000471516</AgencyId>
+				<InsurerId>14CR00260</InsurerId>
+			</ItemIdInfo>
+			<ClaimsReported ReportedToRef="MD_5MiscParty_1">
+				<ReportedDt>2014-05-07</ReportedDt>
+			</ClaimsReported>
+			<LossDt>2014-05-06</LossDt>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_5IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_5IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_5IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_5IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_5IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_5IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_5IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_5IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_5IP_1AutoLossInfo_1_LicPlate">XX410X</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_5IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_5IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_5IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_5IP_2AutoLossInfo_1_LicPlate">XX86X3</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_5IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>V</MatchReasonCd>
+			<MatchReasonCd>L</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>4S000471516</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>L</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_5IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_5IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>AUT00043677</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_6MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>673 OSCAR WILDE DR</Addr1>
+						<City>LARAMIE</City>
+						<StateProvCd>WY</StateProvCd>
+						<PostalCode>82070</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_6ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>6J000470796</AgencyId>
+				<InsurerId>19CR00160</InsurerId>
+			</ItemIdInfo>
+			<ClaimsReported ReportedToRef="MD_6MiscParty_1">
+				<ReportedDt>2014-05-07</ReportedDt>
+			</ClaimsReported>
+			<LossDt>2014-05-06</LossDt>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_6IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_6IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_6IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_6IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_6IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_6IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_6IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_6IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_6IP_1AutoLossInfo_1_LicPlate">569YWT</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_6IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_6IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_6IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_6IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<ClaimsPayment idref="MD_6IP_1AutoLossInfo_1" ClaimsPartyRef="MD_6IP_1">
+			<PaymentTypeCd>LossResv</PaymentTypeCd>
+			<ClaimsPaymentCovInfo>
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>
+			</ClaimsPaymentCovInfo>
+		</ClaimsPayment>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>6J000470796</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_6IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_6IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>AUT000436673</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_7MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>673 OSCAR WILDE DR</Addr1>
+						<City>LARAMIE</City>
+						<StateProvCd>WY</StateProvCd>
+						<PostalCode>82070</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_7ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>7H000470818</AgencyId>
+				<InsurerId>14CR00160</InsurerId>
+			</ItemIdInfo>
+			<ClaimsReported ReportedToRef="MD_7MiscParty_1">
+				<ReportedDt>2014-05-07</ReportedDt>
+			</ClaimsReported>
+			<LossDt>2014-05-06</LossDt>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_7IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_7IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_7IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_7IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_7IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_7IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_7IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_7IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_7IP_1AutoLossInfo_1_LicPlate">XX410X</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_7IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_7IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_7IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_7IP_2AutoLossInfo_1_LicPlate">XX86X3</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_7IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<ClaimsPayment idref="MD_7IP_1AutoLossInfo_1" ClaimsPartyRef="MD_7IP_1">
+			<PaymentTypeCd>LossResv</PaymentTypeCd>
+			<ClaimsPaymentCovInfo>
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>
+			</ClaimsPaymentCovInfo>
+		</ClaimsPayment>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>L</MatchReasonCd>
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>7H000470818</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>L</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_7IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_7IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>32620152</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_8MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>XML TEST CORPORATION</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>14962 WEST MAIN ST</Addr1>
+						<Addr2>STE 100</Addr2>
+						<City>RANCHO CUCAMONGA</City>
+						<StateProvCd>CA</StateProvCd>
+						<PostalCode>91730</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_8ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>7J000478131</AgencyId>
+				<InsurerId>PA052013A001</InsurerId>
+			</ItemIdInfo>
+			<LossDt>2013-05-01</LossDt>
+			<LossTime>12:35</LossTime>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_8IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_8IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_8IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_8IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>XML TEST CORPORATION</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_8IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_8IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_8IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_8IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_8IP_1AutoLossInfo_1_LicPlate">XX410X</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_8IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_8IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_8IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_8IP_2AutoLossInfo_1_LicPlate">XX86X3</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_8IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>L</MatchReasonCd>
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>7J000478131</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>L</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_8IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_8IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>AUT01053677</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_9MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>673 OSCAR WILDE DR</Addr1>
+						<City>LARAMIE</City>
+						<StateProvCd>WY</StateProvCd>
+						<PostalCode>82070</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_9ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>8M000471802</AgencyId>
+				<InsurerId>21CR00160</InsurerId>
+			</ItemIdInfo>
+			<ClaimsReported ReportedToRef="MD_9MiscParty_1">
+				<ReportedDt>2014-05-07</ReportedDt>
+			</ClaimsReported>
+			<LossDt>2014-05-06</LossDt>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_9IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_9IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_9IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_9IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>FARM BUREAU MUT INS CO</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_9IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_9IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_9IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_9IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_9IP_1AutoLossInfo_1_LicPlate">569YWT</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_9IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_9IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_9IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_9IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<ClaimsPayment idref="MD_9IP_1AutoLossInfo_1" ClaimsPartyRef="MD_9IP_1">
+			<PaymentTypeCd>LossResv</PaymentTypeCd>
+			<ClaimsPaymentCovInfo>
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<ClaimStatusCd codelistref="ClaimStatusCdList">O</ClaimStatusCd>
+			</ClaimsPaymentCovInfo>
+		</ClaimsPayment>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>V</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>8M000471802</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_9IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_9IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<MatchDetails>
+		<Policy>
+			<PolicyNumber>BBGGTTEE</PolicyNumber>
+			<LOBCd codelistref="PolicyTypeCdList">PAPP</LOBCd>
+			<MiscParty id="MD_10MiscParty_1">
+				<GeneralPartyInfo>
+					<NameInfo>
+						<CommlName>
+							<CommercialName>XML TEST CORPORATION</CommercialName>
+						</CommlName>
+					</NameInfo>
+					<Addr>
+						<Addr1>14962 WEST MAIN ST</Addr1>
+						<Addr2>STE 100</Addr2>
+						<City>RANCHO CUCAMONGA</City>
+						<StateProvCd>CA</StateProvCd>
+						<PostalCode>91730</PostalCode>
+					</Addr>
+				</GeneralPartyInfo>
+				<MiscPartyInfo>
+					<MiscPartyRoleCd>CarrierInsurer</MiscPartyRoleCd>
+				</MiscPartyInfo>
+			</MiscParty>
+		</Policy>
+		<ClaimsOccurrence id="MD_10ClaimsOccurence_1">
+			<ItemIdInfo>
+				<AgencyId>9C000478051</AgencyId>
+				<InsurerId>PA052013A001</InsurerId>
+			</ItemIdInfo>
+			<LossDt>2013-05-01</LossDt>
+			<LossTime>12:35</LossTime>
+			<IncidentDesc>IV REARENDED CV</IncidentDesc>
+			<Addr>
+				<Addr1>OAK TREE RD</Addr1>
+				<City>DAYTON</City>
+				<StateProvCd>NJ</StateProvCd>
+			</Addr>
+		</ClaimsOccurrence>
+		<ClaimsParty id="MD_10IP_1">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>DUCKEL</Surname>
+						<GivenName>CARLY</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9458 PARIS PLACE</Addr1>
+					<City>NEW BRUNSWICK</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08857</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_10IP_1_HomePhone">+1-555-8851264</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CI</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<ClaimsParty id="MD_10IP_2">
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>RYAN TIRES</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<Addr>
+					<Addr1>9625 GRAND OAK STREET</Addr1>
+					<City>FLEMINGTON</City>
+					<StateProvCd>NJ</StateProvCd>
+					<PostalCode>08894</PostalCode>
+				</Addr>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Home</CommunicationUseCd>
+						<PhoneNumber id="MD_10IP_2_HomePhone">+1-555-4875192</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<ClaimsPartyInfo>
+				<ClaimsPartyRoleCd codelistref="ClaimsPartyRoleCdList">CL</ClaimsPartyRoleCd>
+			</ClaimsPartyInfo>
+		</ClaimsParty>
+		<AdjusterParty>
+			<GeneralPartyInfo>
+				<NameInfo>
+					<CommlName>
+						<CommercialName>XML TEST CORPORATION</CommercialName>
+					</CommlName>
+				</NameInfo>
+				<NameInfo>
+					<PersonName>
+						<Surname>WOODS</Surname>
+						<GivenName>FORREST</GivenName>
+					</PersonName>
+				</NameInfo>
+				<Communications>
+					<PhoneInfo>
+						<PhoneTypeCd>Phone</PhoneTypeCd>
+						<CommunicationUseCd>Business</CommunicationUseCd>
+						<PhoneNumber>+1-555-4692000</PhoneNumber>
+					</PhoneInfo>
+				</Communications>
+			</GeneralPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_10IP_1AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+			<AdjusterPartyInfo AssignmentRef="MD_10IP_2AutoLossInfo_1">
+				<CoverageCd codelistref="CoverageCdList">COLL</CoverageCd>
+				<LossCauseCd codelistref="LossTypeCdList">COLL</LossCauseCd>
+			</AdjusterPartyInfo>
+		</AdjusterParty>
+		<AutoLossInfo id="MD_10IP_1AutoLossInfo_1" ClaimsPartyRefs="MD_10IP_1">
+			<VehInfo>
+				<Manufacturer>HYUNDAI</Manufacturer>
+				<Model>SONATA</Model>
+				<ModelYear>1996</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_10IP_1AutoLossInfo_1_LicPlate">XX410X</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_10IP_1AutoLossInfo_1_VIN">1G4GD2219X4705652</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<AutoLossInfo id="MD_10IP_2AutoLossInfo_1" ClaimsPartyRefs="MD_10IP_2">
+			<VehInfo>
+				<Manufacturer>FORD</Manufacturer>
+				<Model>F150</Model>
+				<ModelYear>2013</ModelYear>
+				<Registration>
+					<RegistrationTypeCd codelistref="LicensePlateTypeCdList">PC</RegistrationTypeCd>
+					<RegistrationNumber id="MD_10IP_2AutoLossInfo_1_LicPlate">XX86X3</RegistrationNumber>
+					<StateProvCd>NJ</StateProvCd>
+					<LastRegisteredYear>2000</LastRegisteredYear>
+				</Registration>
+				<VehIdentificationNumber id="MD_10IP_2AutoLossInfo_1_VIN">3FAHP07X19F117477</VehIdentificationNumber>
+			</VehInfo>
+		</AutoLossInfo>
+		<MatchReasonInfo ClaimsPartyRef="IP_1">
+			<MatchReasonCd>V</MatchReasonCd>
+			<MatchReasonCd>L</MatchReasonCd>
+		</MatchReasonInfo>
+		<com.iso_SumReasonInfo ClaimsPartyRef="IP_1">
+			<com.iso_SumIdentifier>9C000478051</com.iso_SumIdentifier>
+			<com.iso_TotalLossType>10</com.iso_TotalLossType>
+			<com.iso_TotalSIUInvolvement>00</com.iso_TotalSIUInvolvement>
+			<com.iso_TotalName>00</com.iso_TotalName>
+			<com.iso_TotalAddress>00</com.iso_TotalAddress>
+			<com.iso_TotalSSN>00</com.iso_TotalSSN>
+			<com.iso_TotalPhone>00</com.iso_TotalPhone>
+			<com.iso_TotalDriversLic>00</com.iso_TotalDriversLic>
+			<com.iso_TotalVIN>10</com.iso_TotalVIN>
+			<com.iso_TotalLicPlate>07</com.iso_TotalLicPlate>
+			<com.iso_SumReasonCd>LT</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>V</com.iso_SumReasonCd>
+			<com.iso_SumReasonCd>L</com.iso_SumReasonCd>
+		</com.iso_SumReasonInfo>
+		<InvestigationInfo ItemRef="MD_10IP_1AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+		<InvestigationInfo ItemRef="MD_10IP_2AutoLossInfo_1">
+			<ValidVINInd>0</ValidVINInd>
+		</InvestigationInfo>
+	</MatchDetails>
+	<com.iso_KeyReasonInfo ClaimsPartyRef="IP_1">
+		<com.iso_KeyReasonCd>03</com.iso_KeyReasonCd>
+		<com.iso_KeyReasonCd>15</com.iso_KeyReasonCd>
+	</com.iso_KeyReasonInfo>
+</ClaimInvestigationAddRs>
