@@ -1,6 +1,10 @@
 from base64 import b64encode
 import json
-from urllib.parse import urlsplit, urlunsplit
+# from urllib.parse import urlsplit, urlunsplit
+try:
+    from urllib.parse import urlsplit, urlunsplit
+except ImportError:
+     from urlparse import urlsplit, urlunsplit
 
 
 class TestClient():
