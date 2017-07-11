@@ -1,0 +1,13 @@
+http://pbpython.com/python-word-template.html
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+conda install lxml
+pip install docx-mailmerge
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+mkvirtualenv -p /usr/local/bin/python3.6 pbpython361
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
