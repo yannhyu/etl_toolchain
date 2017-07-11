@@ -1,0 +1,61 @@
+problem with line ending that has windows stuff:
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+yann.yu@mllxv-yu:perl_basics$ ./hello_perl_dos.pl 
+bash: ./hello_perl_dos.pl: /usr/bin/perl^M: bad interpreter: No such file or directory
+yann.yu@mllxv-yu:perl_basics$ 
+
+exit 42;yann.yu@mllxv-yu:perl_basics$ cat -e hello_perl_dos.pl 
+#!/usr/bin/perl^M$
+use strict;^M$
+use warnings;^M$
+^M$
+print "Hello, Perl!\n";^M$
+^M$
+exit 42;yann.yu@mllxv-yu:perl_basics$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+vim hello_perl_dos.pl
+:set ff
+
+  fileformat=dos
+
+:set list
+:set nolist
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+yann.yu@mllxv-yu:perl_basics$ cat -v hello_perl_dos.pl 
+#!/usr/bin/perl^M
+use strict;^M
+use warnings;^M
+^M
+print "Hello, Perl!\n";^M
+^M
+exit 42;yann.yu@mllxv-yu:perl_basics$ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+(Octal Dump)
+
+yann.yu@mllxv-yu:perl_basics$ ./hello_perl_dos.pl 
+Hello, Perl!
+yann.yu@mllxv-yu:perl_basics$ unix2dos hello_perl_dos.pl 
+unix2dos: converting file hello_perl_dos.pl to DOS format ...
+yann.yu@mllxv-yu:perl_basics$ od -c hello_perl_dos.pl 
+0000000   #   !   /   u   s   r   /   b   i   n   /   p   e   r   l  \r
+0000020  \n   u   s   e       s   t   r   i   c   t   ;  \r  \n   u   s
+0000040   e       w   a   r   n   i   n   g   s   ;  \r  \n  \r  \n   p
+0000060   r   i   n   t       "   H   e   l   l   o   ,       P   e   r
+0000100   l   !   \   n   "   ;  \r  \n  \r  \n   e   x   i   t       4
+0000120   2   ;
+0000122
+yann.yu@mllxv-yu:perl_basics$ od -c hello_perl.pl 
+0000000   #   !   /   u   s   r   /   b   i   n   /   p   e   r   l  \n
+0000020   u   s   e       s   t   r   i   c   t   ;  \n   u   s   e    
+0000040   w   a   r   n   i   n   g   s   ;  \n  \n   p   r   i   n   t
+0000060       "   H   e   l   l   o   ,       P   e   r   l   !   \   n
+0000100   "   ;  \n  \n   e   x   i   t       4   2   ;
+0000114
+yann.yu@mllxv-yu:perl_basics$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
