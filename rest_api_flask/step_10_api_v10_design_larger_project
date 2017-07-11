@@ -1,0 +1,79 @@
+(rest27) yann.yu@mllxv-yu:orders$ ls
+app  config  run.py  test.py  tests
+(rest27) yann.yu@mllxv-yu:orders$ python run.py 
+ * Running on http://127.0.0.1:5000/
+ * Restarting with reloader
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:flask-apis-video-0.10$ cd orders/
+(rest27) yann.yu@mllxv-yu:orders$ ls
+app  config  data-dev.sqlite  run.py  test.py  tests
+(rest27) yann.yu@mllxv-yu:orders$ http --auth john:cat http://localhost:5000/get-auth-token
+HTTP/1.0 200 OK
+Content-Length: 139
+Content-Type: application/json
+Date: Tue, 11 Jul 2017 16:03:47 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsImV4cCI6MTQ5OTc5MjYyNywiaWF0IjoxNDk5Nzg5MDI3fQ.eyJpZCI6MX0.NfEF7VIH47WMpB913SZNIlbzo5KfOc0v8pzygzYsP-s"
+}
+
+(rest27) yann.yu@mllxv-yu:orders$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+http --auth eyJhbGciOiJIUzI1NiIsImV4cCI6MTQ5OTc5MjYyNywiaWF0IjoxNDk5Nzg5MDI3fQ.eyJpZCI6MX0.NfEF7VIH47WMpB913SZNIlbzo5KfOc0v8pzygzYsP-s: http://localhost:5000/api/v1/customers/
+
+(rest27) yann.yu@mllxv-yu:orders$ http --auth eyJhbGciOiJIUzI1NiIsImV4cCI6MTQ5OTc5MjYyNywiaWF0IjoxNDk5Nzg5MDI3fQ.eyJpZCI6MX0.NfEF7VIH47WMpB913SZNIlbzo5KfOc0v8pzygzYsP-s: http://localhost:5000/api/v1/customers/
+HTTP/1.0 200 OK
+Content-Length: 21
+Content-Type: application/json
+Date: Tue, 11 Jul 2017 16:05:48 GMT
+Server: Werkzeug/0.9.6 Python/2.7.12
+
+{
+    "customers": []
+}
+
+(rest27) yann.yu@mllxv-yu:orders$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+(rest27) yann.yu@mllxv-yu:orders$ python run.py 
+ * Running on http://127.0.0.1:5000/
+ * Restarting with reloader
+127.0.0.1 - - [11/Jul/2017 12:03:47] "GET /get-auth-token HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2017 12:05:48] "GET /api/v1/customers/ HTTP/1.1" 200 -
+^C(rest27) yann.yu@mllxv-yu:orders$ ls
+app  config  data-dev.sqlite  run.py  test.py  tests
+(rest27) yann.yu@mllxv-yu:orders$ python test.py 
+test_customers (tests.tests.TestAPI) ... ok
+test_orders_and_items (tests.tests.TestAPI) ... ok
+test_products (tests.tests.TestAPI) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.539s
+
+OK
+Name                   Stmts   Miss Branch BrMiss  Cover   Missing
+------------------------------------------------------------------
+app/__init__              16      1      0      0    94%   28
+app/api_v1/__init__        7      0      0      0   100%   
+app/api_v1/customers      20      0      0      0   100%   
+app/api_v1/errors         19     12      0      0    37%   8-11, 16-19, 24-27, 32-35
+app/api_v1/items          27      0      0      0   100%   
+app/api_v1/orders         29      0      0      0   100%   
+app/api_v1/products       20      0      0      0   100%   
+app/auth                  23     11      4      3    48%   11-14, 18-21, 26, 33-36
+app/exceptions             2      0      0      0   100%   
+app/models                96     13      4      2    85%   22, 33-34, 58-59, 81-82, 111-112, 139-140, 142, 146
+app/utils                 22      7      9      5    61%   13, 20-22, 29, 32-33
+------------------------------------------------------------------
+TOTAL                    281     44     17     10    82%   
+(rest27) yann.yu@mllxv-yu:orders$ 
+
+
+
+
