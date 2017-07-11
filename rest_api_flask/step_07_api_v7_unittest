@@ -1,0 +1,14 @@
+(rest27) yann.yu@mllxv-yu:orders$ python tests.py 
+Traceback (most recent call last):
+  File "tests.py", line 6, in <module>
+    from test_client import TestClient
+  File "/home/yann.yu/workspace/etl_toolchain/rest_api_flask/flask-apis-video-0.7/orders/test_client.py", line 3, in <module>
+    from urllib.parse import urlsplit, urlunsplit
+ImportError: No module named parse
+(rest27) yann.yu@mllxv-yu:orders$ python tests.py 
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.347s
+
+OK
+(rest27) yann.yu@mllxv-yu:orders$ 
