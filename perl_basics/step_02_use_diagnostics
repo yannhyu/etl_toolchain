@@ -1,0 +1,52 @@
+yann.yu@mllxv-yu:perl_basics$ ./use_diagnostics.pl 
+String found where operator expected at ./use_diagnostics.pl line 6, near "prinint "Hello, Perl!\n""
+	(Do you need to predeclare prinint?)
+syntax error at ./use_diagnostics.pl line 6, near "prinint "Hello, Perl!\n""
+Execution of ./use_diagnostics.pl aborted due to compilation errors.
+yann.yu@mllxv-yu:perl_basics$ 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+yann.yu@mllxv-yu:perl_basics$ ./use_diagnostics.pl 
+String found where operator expected at ./use_diagnostics.pl line 6, near
+	"prinint "Hello, Perl!\n"" (#1)
+    (S syntax) The Perl lexer knows whether to expect a term or an operator.
+    If it sees what it knows to be a term when it was expecting to see an
+    operator, it gives you this warning.  Usually it indicates that an
+    operator or delimiter was omitted, such as a semicolon.
+    
+	(Do you need to predeclare prinint?) (#2)
+    (S syntax) This is an educated guess made in conjunction with the message
+    "%s found where operator expected".  It often means a subroutine or module
+    name is being referenced that hasn't been declared yet.  This may be
+    because of ordering problems in your file, or because of a missing
+    "sub", "package", "require", or "use" statement.  If you're referencing
+    something that isn't defined yet, you don't actually have to define the
+    subroutine or package before the current location.  You can use an empty
+    "sub foo;" or "package FOO;" to enter a "forward" declaration.
+    
+syntax error at ./use_diagnostics.pl line 6, near "prinint "Hello, Perl!\n""
+Execution of ./use_diagnostics.pl aborted due to compilation errors (#3)
+    (F) Probably means you had a syntax error.  Common reasons include:
+    
+        A keyword is misspelled.
+        A semicolon is missing.
+        A comma is missing.
+        An opening or closing parenthesis is missing.
+        An opening or closing brace is missing.
+        A closing quote is missing.
+    
+    Often there will be another error message associated with the syntax
+    error giving more information.  (Sometimes it helps to turn on -w.)
+    The error message itself often tells you where it was in the line when
+    it decided to give up.  Sometimes the actual error is several tokens
+    before this, because Perl is good at understanding random input.
+    Occasionally the line number may be misleading, and once in a blue moon
+    the only way to figure out what's triggering the error is to call
+    perl -c repeatedly, chopping away half the program each time to see
+    if the error went away.  Sort of the cybernetic version of 20 questions.
+    
+Uncaught exception from user code:
+	syntax error at ./use_diagnostics.pl line 6, near "prinint "Hello, Perl!\n""
+	Execution of ./use_diagnostics.pl aborted due to compilation errors.
+yann.yu@mllxv-yu:perl_basics$ 
