@@ -1,0 +1,37 @@
+perl -v
+
+which perl
+
+echo $?
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+yann.yu@mllxv-yu:perl_basics$ chmod +x hello_perl.pl 
+yann.yu@mllxv-yu:perl_basics$ ls -lah
+total 12K
+drwxrwxr-x 2 yann.yu yann.yu 4.0K Jul 11 13:34 .
+drwxrwxr-x 6 yann.yu yann.yu 4.0K Jul 11 13:34 ..
+-rwxrwxr-x 1 yann.yu yann.yu   39 Jul 11 14:17 hello_perl.pl
+yann.yu@mllxv-yu:perl_basics$ ./hello_perl.pl 
+Hello, Perl!
+yann.yu@mllxv-yu:perl_basics$ which perl
+/usr/bin/perl
+yann.yu@mllxv-yu:perl_basics$ ./hello_perl.pl 
+Hello, Perl!
+yann.yu@mllxv-yu:perl_basics$ echo $?
+0
+yann.yu@mllxv-yu:perl_basics$ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+yann.yu@mllxv-yu:perl_basics$ ./warn_func.pl 
+It may or may not greet you.
+Let's try it anyway!
+yann.yu@mllxv-yu:perl_basics$ ./warn_func.pl > /dev/null
+It may or may not greet you.
+yann.yu@mllxv-yu:perl_basics$ 
+
+
+
