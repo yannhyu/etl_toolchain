@@ -1,0 +1,15 @@
+(rest27) yann.yu@mllxv-yu:orders$ python tests.py 
+test_customers (__main__.TestAPI) ... ok
+test_orders_and_items (__main__.TestAPI) ... ok
+test_products (__main__.TestAPI) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.605s
+
+OK
+Name    Stmts   Miss Branch BrMiss  Cover   Missing
+---------------------------------------------------
+api       235     43     12      7    80%   32-35, 39-42, 46-49, 53-56, 69, 80-81, 105-106, 128-129, 158-159, 186-187, 189, 193, 200-203, 207-210, 219-222, 233, 363-370
+(rest27) yann.yu@mllxv-yu:orders$ 
+
+
