@@ -1,0 +1,27 @@
+yann.yu@mllxv-yu:etl_toolchain$ java -version
+openjdk version "1.8.0_131"
+OpenJDK Runtime Environment (build 1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11)
+OpenJDK 64-Bit Server VM (build 25.131-b11, mixed mode)
+yann.yu@mllxv-yu:etl_toolchain$ javac -version
+javac 1.8.0_131
+yann.yu@mllxv-yu:etl_toolchain$ 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+tar -xvzf scala-2.12.2.tgz
+
+cd /home/yann.yu/scala-2.12.2/bin
+
+./scala
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+yann.yu@mllxv-yu:bin$ ./scala
+Welcome to Scala 2.12.2 (OpenJDK 64-Bit Server VM, Java 1.8.0_131).
+Type in expressions for evaluation. Or try :help.
+
+scala> 
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
