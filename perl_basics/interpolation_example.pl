@@ -8,3 +8,5 @@ my $fruit = "apple";
 print "I've got $count ${fruit}s\n";
 
 print "11 mod 3 is ", 11 % 3, " \n";
+
+print "\$count is now ", ++$count, " \n";
