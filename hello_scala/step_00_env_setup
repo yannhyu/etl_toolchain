@@ -14,14 +14,25 @@ cd /home/yann.yu/scala-2.12.2/bin
 
 ./scala
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 yann.yu@mllxv-yu:bin$ ./scala
 Welcome to Scala 2.12.2 (OpenJDK 64-Bit Server VM, Java 1.8.0_131).
 Type in expressions for evaluation. Or try :help.
 
-scala> 
+scala> 2 + 2
+res0: Int = 4
 
+scala> 3 + 3
+res1: Int = 6
+
+scala> Math.sqrt(9.0)
+res2: Double = 3.0
+
+scala> val n = 42
+n: Int = 42
+
+scala> 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
