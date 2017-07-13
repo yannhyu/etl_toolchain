@@ -1,0 +1,8 @@
+namespace : %
+    classes : %
+    functions : @
+        get_fname
+filtered : <<EOV-
+
+from mlxlibrary import get_fname
+EOV
