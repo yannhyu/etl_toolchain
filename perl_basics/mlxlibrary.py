@@ -21,4 +21,8 @@ def get_mname(somename):
     # print(name.middle)
     # print(name.last)
 
-    return name.middle    
+    return name.middle
+
+def get_lname(somename):
+    name = HumanName(somename)
+    return name.last     
