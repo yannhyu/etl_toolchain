@@ -30,3 +30,4 @@ for d_v1 in data_v1:
 for d_v2 in data_v2:
     transformed = empty._replace(**dict(zip(headers_v2, d_v2)))
     print(transformed)
+    print('|'.join((str(x) if x else '' for x in transformed)))
