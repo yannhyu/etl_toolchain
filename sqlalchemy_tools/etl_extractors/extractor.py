@@ -80,8 +80,7 @@ if __name__ == '__main__':
     # print(type(our_run_date))
     # print(param_cust_id)
 
-    # db_uri = 'postgresql://u:p@host/database'
-    db_uri = 'postgresql://dev_payorintel_u:u782nmt5@devmaindb/dev_ml_db'
+    db_uri = 'postgresql://u:p@host/database'
     engine = create_engine(db_uri)
     metadata = MetaData(engine)
     metadata.reflect(engine,
