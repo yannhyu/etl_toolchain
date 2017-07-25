@@ -1,0 +1,38 @@
+psql -U postgres -d testdb -h 127.0.0.1 -W
+
+++++++++++++++++++++++++++++++++++++++++++
+
+testdb=# \d jsonbtable
+                         Table "public.jsonbtable"
+ Column |  Type   |                        Modifiers                        
+--------+---------+---------------------------------------------------------
+ id     | integer | not null default nextval('jsonbtable_id_seq'::regclass)
+ name   | text    | 
+ email  | text    | 
+ doc    | jsonb   | 
+Indexes:
+    "jsonbtable_pkey" PRIMARY KEY, btree (id)
+
+testdb=# 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+testdb=# select * from jsonbtable;
+ id |        name         |        email        |                          doc                           
+----+---------------------+---------------------+--------------------------------------------------------
+  1 | Arletty             | Arletty@paradis.com | {"year": 1945, "color": "noir"}
+  2 | Marcel Carné        | mc@paradis.com      | {"film": "Les Enfants du Paradis", "role": "director"}
+  3 | Jean-Louis Barrault | jlb@paradis.com     | {"type": "mime artist", "jouer": "Baptiste Debureau"}
+(3 rows)
+
+testdb=# 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+testdb=# select doc->>'type' as type from jsonbtable where name like '%Jean%';
+    type     
+-------------
+ mime artist
+(1 row)
+
+testdb=# 
